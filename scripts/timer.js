@@ -113,7 +113,7 @@ function formatTime(milisec, format) {
 
   // The sizes and colors for each digit, 8 is plenty because 9 digits is at least 100 days
   let sizes = ['5', '5', '5', '5', '5', '5', '5', '5'];
-  let colors = ['', '', '', '', 'Lightblue', 'Lightblue', 'darkblue', 'darkblue'];
+  let colors = ['', '', '', '', 'lightblue', 'lightblue', 'darkblue', 'darkblue'];
 
   // Create an array to store each digit with the <span> tags to format it
   let timeArr = new Array(digits.length)
