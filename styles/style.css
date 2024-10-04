@@ -162,7 +162,7 @@ button {
 button.on {
   color: rgb(28, 89, 168);
   background-color: black;
-  border: rgb(28, 89, 168);
+  border: rgb(27, 86, 163);
 }
 button.off {
   color: #FFF;
