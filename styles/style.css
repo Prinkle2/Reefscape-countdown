@@ -1,7 +1,7 @@
 html { 
   min-height: 100%;
-  background-color: rgb(0, 0, 0);
-  background-image: url(../images/background.png);
+  background-color: #000000;
+  background-image: url(../images/logo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,11 +116,11 @@ span.withmargin {
 }
 
 .lightgreen {
-  color: #5CCB83;
+  color: rgb(28, 89, 168);
 }
 
 .darkgreen {
-  color: #059A56;
+  color: rgb(28, 89, 168);
 }
 
 .size0 {
@@ -160,9 +160,9 @@ button {
   cursor: pointer;
 }
 button.on {
-  color: #5CCB83;
+  color: rgb(28, 89, 168);
   background-color: black;
-  border: #5CCB83 solid;
+  border: rgb(28, 89, 168);
 }
 button.off {
   color: #FFF;
