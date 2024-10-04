@@ -167,7 +167,7 @@ function getTeamName(milisec, format) {
   // Return the team's nickname (formatted) if it is in the nicknames.json file, otherwise return No Team (formatted)
   if (team_number in nicknames) {
     let team_nickname = nicknames[team_number]
-    return `<span class='darkgreen'>${team_nickname}</span>`
+    return `<span class='darkblue'>${team_nickname}</span>`
   } else {
     return "<i>No Team</i>"
   }
@@ -190,15 +190,15 @@ function update() {
     } else {
       //if the countdown is done, then display "Welcome to CRESCENDO!"
       team.innerHTML = "Welcome to" + 
-      "<span class='withmargin darkgreen size0'>C</span>" + 
-      "<span class='darkgreen size1'>R</span>" + 
-      "<span class='darkgreen size2'>E</span>" + 
-      "<span class='darkgreen size3'>S</span>" + 
-      "<span class='darkgreen size1'>C</span>" + 
-      "<span class='darkgreen size2'>E</span>" + 
-      "<span class='darkgreen size3'>N</span>" + 
-      "<span class='darkgreen size4'>D</span>" + 
-      "<span class='darkgreen size5'>O</span>" + 
+      "<span class='withmargin darkblue size0'>C</span>" + 
+      "<span class='darkblue size1'>R</span>" + 
+      "<span class='darkblue size2'>E</span>" + 
+      "<span class='darkblue size3'>S</span>" + 
+      "<span class='darkblue size1'>C</span>" + 
+      "<span class='darkblue size2'>E</span>" + 
+      "<span class='darkblue size3'>N</span>" + 
+      "<span class='darkblue size4'>D</span>" + 
+      "<span class='darkblue size5'>O</span>" + 
       "!";
     }
   }
